@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--BootStrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!--Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!--Animate.CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+
+    <!--Title-->
+    <title>Searching App</title>
+  </head>
+  <body>
+    <!-- <header>
+      <div class="header_body">
+        <img
+          class="header_icon"
+          src="#"
+          alt="header_icon"
+          width="80px"
+          height="80px"
+        />
+        <h2 class="">Sparks</h2>
+      </div>
+    </header> -->
+
+    <section class="hero_sec">
+      <!-- Bootstrap Carousel -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        
+        <div class="carousel-inner" data-bs-interval="10000">
+          <div class="carousel-item active">
+            <img
+              src="./assets/iphone/iPhone_14_Plus.jpeg"
+              class="d-block "
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/samsung/Galaxy_S24+.jpeg"
+              class="d-block "
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/infinix/Infinix_Note_30_VIP.jpeg"
+              class="d-block "
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/realme/Realme_10_Pro.jpeg"
+              class="d-block "
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/one_plus/OnePlus_Nord_N30.jpeg"
+              class="d-block "
+              alt="..."
+            />
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!--Dropdown-->
+    <div class="dropdowns" id="dropdowns">
+    <select name="mob_brand" class="dropdown" id="mob_brand" onchange="display_dropdown()">
+      <option value="Select_a_Brand">--Select a Brand--</option>
+      <option value="Iphone">Iphone</option>
+      <option value="Samsung">Samsung</option>
+      <option value="Infinix">Infinix</option>
+      <option value="Realme">Realme</option>
+      <option value="OnePlus">OnePlus</option>
+    </select>
+
+    <select name="mob_model" class="dropdown" id="mob_model" onchange="display_model()">
+      <option value="Select_a_Brand">--Select a Brand--</option>
+    </select>
+    </div>
+    
+
+    <div id="main_div" class="main_div container">
+
+
+    </div>
+
+    <!--HTML END-->
+
+    <!--Scripts-->
+    <!--Bootstrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Vanilla JS-->
+    <script src="./script.js"></script>
+  </body>
+</html>

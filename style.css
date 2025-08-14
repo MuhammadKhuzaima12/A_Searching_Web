@@ -1,0 +1,87 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #505050;
+}
+
+.carousel {
+  /* border: 5px solid black; */
+  /* margin: 0 6vw; */
+  margin-top: 10vh;
+  height: 96vh;
+}
+
+.carousel img {
+  margin: 0 4vw;
+  height: 80vh;
+  width: 92vw;
+  border-radius: 10px;
+  border: 3px solid cyan;
+  box-shadow: 5px 5px 20px cyan ;
+}
+
+.main_div{
+  margin-top: 10vh ;
+  width: 100%;
+}
+
+.brand_heading{
+  width: 95%;
+  height: 10vh;
+  margin:auto ;
+  background-color: aqua;
+  border: 2px solid black;
+  box-shadow: 5px 5px 15px cyan ;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand_cards{
+  /* border: 2px solid red; */
+  margin: 10px 0;
+  padding: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card{
+  width: 30%;
+  margin: 10px 0;
+  background-color: aqua;
+  border: 2px solid black;
+  box-shadow: 5px 5px 15px cyan ;
+}
+
+.card-body{
+  margin: 0 10px;
+}
+
+.dropdowns{
+  margin: 0 1.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+
+.dropdown{
+  width: 35%;
+  height: 6vh;
+  background-color: aqua;
+  box-shadow: 5px 5px 15px cyan ;
+  border: 2px solid black;
+  border-radius: 10px;
+  outline:none;
+}
+
+option{
+  background-color: #505050;
+  color: cyan;
+}
+
+#mob_model{
+  display: none;
+}
